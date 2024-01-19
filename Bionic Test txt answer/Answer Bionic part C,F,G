@@ -1,0 +1,48 @@
+Answer
+
+C. SQL Test
+
+Result 1
+SELECT DISTINCT ASSET.item FROM ASSETS INNER JOIN USER ON ASSET.user_id = USER.user_id
+
+Result 2
+SELECT USER.user_id, ASSET.item FROM USER INNER JOIN ASSET ON USER.user_id = ASSET.user_id 
+WHERE USER.user_id = 'wildan' AND USER.user_id = 'zaki'
+
+F. Jelaskan istilah dibawah dengan bahasa sendiri
+
+- Cypress
+ Jawaban:Software untuk automation testing
+ 
+- Kubernetes
+Jawaban:
+Platform open-source untuk manajemen workload aplikasi
+
+- ORM
+Jawaban: Melaraskan code berbasis oop dengan database untuk support query pada berbagai macam bahasa pemrograman
+
+- Class
+Jawaban: Blueprint dari suatu object
+
+- Function
+Jawaban: Suatu/Kumpulan line of code dari logic untuk menjalankan sebuah action untuk menghasilkan output sesuai yang diinginkan 
+
+- DevOp
+Jawaban:Suatu tahapan guna menggembangkan aplikasi mulai dari perencanaan, pengembangan, dan eksekusi dari suatu aplikasi hingga aplikasi tersebut selesai
+
+- Docker
+Jawaban: Merupakan software tools untuk mengumpulkan requirement yang ada guna mendukung kebutuhan suatu project, seperti library yang u dan lain-lain
+
+
+G. Berikan 3 Architecture Application di era sekarang, tentukan teknologi yang menurut
+Anda terbaik, dan berikan alasannya?
+
+1. Component based development
+Untuk frontend developer, component based development menjadi salah satu pilihan baik karena development aplikasi terdiri dari modul-modul yang berisi component-component yang dimana component tersebut dapat berkomunikasi satu sama lain, contohnya pada Vue component dapat berhubungan dengan cara props/emit sehingga function yang ada pada suatu component dapat diakses di component lain.
+
+2. Object-oriented architecture
+Pendekatan ini memungkinkan pengembangan aplikasi khususnya pada saat penulisan code membuat aplikasi menjadi lebih terstruktur, sehingga pada saat melakukan testing function tidak mempengaruhi current development yang ada dan juga mengurangi cost maintenance
+
+3. Cloud computing architecture
+Pendekatan ini biasanya digunakan pada pembuatan aplikasi berskala besar karena penyimpanannya menggunakan cloud sehingga meminimalisir penggunaan database
+
